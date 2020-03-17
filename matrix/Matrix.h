@@ -6,9 +6,7 @@ using std::endl;
 class Matrix{
 public:
 	double* arr=new double[9];
-	//Matrix() {
-	//	arr = new double[9];
-	//}
+	
 	friend Matrix operator+(Matrix const& a, Matrix const& b);
 	friend Matrix operator*(Matrix const& a, Matrix const& b);
 	friend Matrix operator*(Matrix const& a, int const& b);
